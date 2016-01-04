@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043B72C21BC61C2900E08103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B72C11BC61C2900E08103 /* main.m */; };
+		043B72C51BC61C2900E08103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B72C41BC61C2900E08103 /* AppDelegate.m */; };
+		043B72C81BC61C2900E08103 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 043B72C71BC61C2900E08103 /* ViewController.mm */; };
+		043B72CB1BC61C2900E08103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043B72C91BC61C2900E08103 /* Main.storyboard */; };
+		043B72CD1BC61C2900E08103 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043B72CC1BC61C2900E08103 /* Images.xcassets */; };
+		043B72D01BC61C2900E08103 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043B72CE1BC61C2900E08103 /* LaunchScreen.xib */; };
+		043B73201BC64ACC00E08103 /* svm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 043B731F1BC64ACC00E08103 /* svm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043B72BC1BC61C2900E08103 /* libSVM_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libSVM_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043B72C01BC61C2900E08103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043B72C11BC61C2900E08103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043B72C31BC61C2900E08103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043B72C41BC61C2900E08103 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043B72C61BC61C2900E08103 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043B72C71BC61C2900E08103 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		043B72CA1BC61C2900E08103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043B72CC1BC61C2900E08103 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		043B72CF1BC61C2900E08103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		043B72F11BC61D2700E08103 /* svm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svm.h; sourceTree = "<group>"; };
+		043B731F1BC64ACC00E08103 /* svm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svm.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043B72B91BC61C2900E08103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043B72B31BC61C2900E08103 = {
+			isa = PBXGroup;
+			children = (
+				043B72BE1BC61C2900E08103 /* libSVM_Test */,
+				043B72BD1BC61C2900E08103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043B72BD1BC61C2900E08103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043B72BC1BC61C2900E08103 /* libSVM_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043B72BE1BC61C2900E08103 /* libSVM_Test */ = {
+			isa = PBXGroup;
+			children = (
+				043B72E51BC61C8900E08103 /* libSVM */,
+				043B72C31BC61C2900E08103 /* AppDelegate.h */,
+				043B72C41BC61C2900E08103 /* AppDelegate.m */,
+				043B72C61BC61C2900E08103 /* ViewController.h */,
+				043B72C71BC61C2900E08103 /* ViewController.mm */,
+				043B72C91BC61C2900E08103 /* Main.storyboard */,
+				043B72CC1BC61C2900E08103 /* Images.xcassets */,
+				043B72CE1BC61C2900E08103 /* LaunchScreen.xib */,
+				043B72BF1BC61C2900E08103 /* Supporting Files */,
+			);
+			path = libSVM_Test;
+			sourceTree = "<group>";
+		};
+		043B72BF1BC61C2900E08103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043B72C01BC61C2900E08103 /* Info.plist */,
+				043B72C11BC61C2900E08103 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043B72E51BC61C8900E08103 /* libSVM */ = {
+			isa = PBXGroup;
+			children = (
+				043B72F11BC61D2700E08103 /* svm.h */,
+				043B731F1BC64ACC00E08103 /* svm.cpp */,
+			);
+			path = libSVM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043B72BB1BC61C2900E08103 /* libSVM_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043B72DF1BC61C2900E08103 /* Build configuration list for PBXNativeTarget "libSVM_Test" */;
+			buildPhases = (
+				043B72B81BC61C2900E08103 /* Sources */,
+				043B72B91BC61C2900E08103 /* Frameworks */,
+				043B72BA1BC61C2900E08103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libSVM_Test;
+			productName = libSVM_Test;
+			productReference = 043B72BC1BC61C2900E08103 /* libSVM_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043B72B41BC61C2900E08103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					043B72BB1BC61C2900E08103 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 043B72B71BC61C2900E08103 /* Build configuration list for PBXProject "libSVM_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043B72B31BC61C2900E08103;
+			productRefGroup = 043B72BD1BC61C2900E08103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043B72BB1BC61C2900E08103 /* libSVM_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043B72BA1BC61C2900E08103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B72CB1BC61C2900E08103 /* Main.storyboard in Resources */,
+				043B72D01BC61C2900E08103 /* LaunchScreen.xib in Resources */,
+				043B72CD1BC61C2900E08103 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043B72B81BC61C2900E08103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B72C81BC61C2900E08103 /* ViewController.mm in Sources */,
+				043B72C51BC61C2900E08103 /* AppDelegate.m in Sources */,
+				043B73201BC64ACC00E08103 /* svm.cpp in Sources */,
+				043B72C21BC61C2900E08103 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043B72C91BC61C2900E08103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043B72CA1BC61C2900E08103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043B72CE1BC61C2900E08103 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043B72CF1BC61C2900E08103 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043B72DD1BC61C2900E08103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		043B72DE1BC61C2900E08103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043B72E01BC61C2900E08103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = libSVM_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libSVM_Test/libSVM",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		043B72E11BC61C2900E08103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = libSVM_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libSVM_Test/libSVM",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043B72B71BC61C2900E08103 /* Build configuration list for PBXProject "libSVM_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043B72DD1BC61C2900E08103 /* Debug */,
+				043B72DE1BC61C2900E08103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043B72DF1BC61C2900E08103 /* Build configuration list for PBXNativeTarget "libSVM_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043B72E01BC61C2900E08103 /* Debug */,
+				043B72E11BC61C2900E08103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043B72B41BC61C2900E08103 /* Project object */;
+}
